@@ -181,7 +181,7 @@ label: "E-Commerce Training"
 
 explore: order_items {
   
-  query: QwikLab Explorers {
+  query: qwiklab-explorers {
     dimensions: [users.age, users.average_sales, users.country, users.id, users.state]
   }
   join: user_order_lifetime {
